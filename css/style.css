@@ -277,10 +277,15 @@ a{
 }
 .third-1_child:hover .third_over i{
     margin-top: 5%;
+    opacity: 1;
 }
 
 .third-1_child:hover .third_over h2{
     margin-top: 32%;
+}
+.third-1_child:hover .third_over h3{
+    margin-top: 5%;
+    opacity: 1;
 }
 .third-1_child i{
     border: 2px black solid;
@@ -290,7 +295,9 @@ a{
    margin-top: 2%;
    color: #000000;
    background-color: rgb(1, 179, 179);
-   transition: 1s;
+   transition: .5s;
+   transition-delay:.6s;
+   opacity: 0;
 }
 .third_over h2{
     font-size: 24px;
@@ -305,6 +312,9 @@ a{
     color:rgb(225, 225, 225);
     font-size: 15px;
     margin-top: 3%;
+    transition: 1s;
+    opacity: 0;
+    transition-delay: .3s;
 }
 .grand_forth{
     width: 100%;
